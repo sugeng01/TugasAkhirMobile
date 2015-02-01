@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75ecfd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.TugasAkhir.pakaianadatindonesia.KaltimActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kaltim" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalimantan Timur \n \n Orang Kalimantan Timur biasanya mengenakan pakaian adat tradisional khas mereka bergantung fungsi dan penggunaan. Pakaian yang dikenakan untuk bepergian berbeda dengan pakaian sehari-hari. Apalagi pakaian untuk acara dan upacara-upacara tertentu. Begitu pula pakaian yang dikenakan untuk menari pun berbeda dengan pakaian lainnya. Pakaian adat yang dimiliki masyarakat Kalimantan Timur biasa dikenakan pada saat upacara, perkawinan, tarian, dan sebagainya." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

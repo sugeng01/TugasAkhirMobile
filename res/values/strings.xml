@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PakaianAdatIndonesia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_adat">AdatActivity</string>
+    <string name="title_activity_aceh">AcehActivity</string>
+    <string name="title_activity_pakaian_adat">PakaianAdatActivity</string>
+    <string name="title_activity_non_adat">NonAdatActivity</string>
+    <string name="title_activity_tentang">TentangActivity</string>
+    <string name="title_activity_bali">BaliActivity</string>
+    <string name="title_activity_banten">BantenActivity</string>
+    <string name="title_activity_bengkulu">BengkuluActivity</string>
+    <string name="title_activity_gorontalo">GorontaloActivity</string>
+    <string name="title_activity_jakarta">JakartaActivity</string>
+    <string name="title_activity_jambi">JambiActivity</string>
+    <string name="title_activity_jabar">JabarActivity</string>
+    <string name="title_activity_jateng">JatengActivity</string>
+    <string name="title_activity_jatim">JatimActivity</string>
+    <string name="title_activity_jogja">JogjaActivity</string>
+    <string name="title_activity_kalimantan">KalimantanActivity</string>
+    <string name="title_activity_riau">RiauActivity</string>
+    <string name="title_activity_papua">PapuaActivity</string>
+    <string name="title_activity_sulawesi">SulawesiActivity</string>
+    <string name="title_activity_sumbar">SumbarActivity</string>
+    <string name="title_activity_kebaya_pengantin">KebayaPengantinActivity</string>
+    <string name="title_activity_kebaya_muslim">KebayaMuslimActivity</string>
+    <string name="title_activity_kebaya_muslim_modern">KebayaMuslimModernActivity</string>
+    <string name="title_activity_formal">FormalActivity</string>
+    <string name="title_activity_bebel">BebelActivity</string>
+    <string name="title_activity_kelteng">KeltengActivity</string>
+    <string name="title_activity_kalsel">KalselActivity</string>
+    <string name="title_activity_kaltim">KaltimActivity</string>
+    <string name="title_activity_kalut">KalutActivity</string>
+    <string name="title_activity_lampung">LampungActivity</string>
+    <string name="title_activity_maluku">MalukuActivity</string>
+    <string name="title_activity_malukuutara">MalukuutaraActivity</string>
+    <string name="title_activity_ntb">NtbActivity</string>
+    <string name="title_activity_ntt">NttActivity</string>
+    <string name="title_activity_pabar">PabarActivity</string>
+    <string name="title_activity_sulbar">SulbarActivity</string>
+    <string name="title_activity_sulsel">SulselActivity</string>
+    <string name="title_activity_sulteng">SultengActivity</string>
+    <string name="title_activity_sultenggara">SultenggaraActivity</string>
+    <string name="title_activity_sumsel">SumselActivity</string>
+    <string name="title_activity_sumut">SumutActivity</string>
+
+</resources>

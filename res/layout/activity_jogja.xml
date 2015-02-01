@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75ecfd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.TugasAkhir.pakaianadatindonesia.JogjaActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jogja" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Yogjakarta \n \nPakaian adat tradisional masyarakat Daerah Istimewa Yogyakarta terdiri dari seperangkat pakaian adat tradisional yang memiliki unsur-unsur yang tidak dapat dipisahkan satu dengan lainnya. Kelengkapan berbusana tersebut merupakan ciri khusus pemberi identitas bagi pemakainya yang meliputi fungsi dan peranannya. Oleh karena itu, cara berpakaian biasanya sudah dibakukan secara adat, kapan dikenakan, dimana dikenakan, dan siapa yang mengenakannya." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

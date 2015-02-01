@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75ecfd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.TugasAkhir.pakaianadatindonesia.MalukuutaraActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="290dp"
+                android:layout_height="253dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/malukuutara" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maluku Utara \n\n Pakaian Manteren Lamo (Sultan) adalah pakaian adat tradisional Maluku Utara yang terdiri atas celana panjang hitam dengan bis merah memanjang dari atas ke bawah, baju berbentuk jas tertutup dengan kancing besar terbuat dari perak berjumlah sembilan . Sementara itu, leher jas, ujung tangan, dan saku jas yang terletak di bagian luar berwarna merah." />
+ />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

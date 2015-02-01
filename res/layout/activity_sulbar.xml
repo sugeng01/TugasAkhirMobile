@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75ecfd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.TugasAkhir.pakaianadatindonesia.SulbarActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sulba" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sulawesi Barat \n\n Lipa Saqbe Mandar (Sarung Sutra Mandar) adalah pakaian adat Sulawesi Barat yang sepintas memiliki persamaan dengan kain sutra daerah lain, tapi di setiap jenis dan nama Lipa Saqbe Mandar memiliki ciri khas khusus yakni dari segi corak (sure’ ataupun bunga) dan cara pembuatannya, yang membuatnya terkenal ke daerah sekitarnya (bugis dan makassar)." />
+ />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.TugasAkhir.pakaianadatindonesia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdatActivity"
+            android:label="@string/title_activity_adat" >
+        </activity>
+        <activity
+            android:name=".AcehActivity"
+            android:label="@string/title_activity_aceh" >
+        </activity>
+        <activity
+            android:name=".PakaianAdatActivity"
+            android:label="@string/title_activity_pakaian_adat" >
+        </activity>
+        <activity
+            android:name=".NonAdatActivity"
+            android:label="@string/title_activity_non_adat" >
+        </activity>
+        <activity
+            android:name=".TentangActivity"
+            android:label="@string/title_activity_tentang" >
+        </activity>
+        <activity
+            android:name=".BaliActivity"
+            android:label="@string/title_activity_bali" >
+        </activity>
+        <activity
+            android:name=".BantenActivity"
+            android:label="@string/title_activity_banten" >
+        </activity>
+        <activity
+            android:name=".BengkuluActivity"
+            android:label="@string/title_activity_bengkulu" >
+        </activity>
+        <activity
+            android:name=".GorontaloActivity"
+            android:label="@string/title_activity_gorontalo" >
+        </activity>
+        <activity
+            android:name=".JakartaActivity"
+            android:label="@string/title_activity_jakarta" >
+        </activity>
+        <activity
+            android:name=".JambiActivity"
+            android:label="@string/title_activity_jambi" >
+        </activity>
+        <activity
+            android:name=".JabarActivity"
+            android:label="@string/title_activity_jabar" >
+        </activity>
+        <activity
+            android:name=".JatengActivity"
+            android:label="@string/title_activity_jateng" >
+        </activity>
+        <activity
+            android:name=".JatimActivity"
+            android:label="@string/title_activity_jatim" >
+        </activity>
+        <activity
+            android:name=".JogjaActivity"
+            android:label="@string/title_activity_jogja" >
+        </activity>
+        <activity
+            android:name=".KalimantanActivity"
+            android:label="@string/title_activity_kalimantan" >
+        </activity>
+        <activity
+            android:name=".RiauActivity"
+            android:label="@string/title_activity_riau" >
+        </activity>
+        <activity
+            android:name=".PapuaActivity"
+            android:label="@string/title_activity_papua" >
+        </activity>
+        <activity
+            android:name=".SulawesiActivity"
+            android:label="@string/title_activity_sulawesi" >
+        </activity>
+        <activity
+            android:name=".SumbarActivity"
+            android:label="@string/title_activity_sumbar" >
+        </activity>
+        <activity
+            android:name=".KebayaPengantinActivity"
+            android:label="@string/title_activity_kebaya_pengantin" >
+        </activity>
+        <activity
+            android:name=".KebayaMuslimActivity"
+            android:label="@string/title_activity_kebaya_muslim" >
+        </activity>
+        <activity
+            android:name=".KebayaMuslimModernActivity"
+            android:label="@string/title_activity_kebaya_muslim_modern" >
+        </activity>
+        <activity
+            android:name=".FormalActivity"
+            android:label="@string/title_activity_formal" >
+        </activity>
+        <activity
+            android:name=".BebelActivity"
+            android:label="@string/title_activity_bebel" >
+        </activity>
+        <activity
+            android:name=".KeltengActivity"
+            android:label="@string/title_activity_kelteng" >
+        </activity>
+        <activity
+            android:name=".KalselActivity"
+            android:label="@string/title_activity_kalsel" >
+        </activity>
+        <activity
+            android:name=".KaltimActivity"
+            android:label="@string/title_activity_kaltim" >
+        </activity>
+        <activity
+            android:name=".KalutActivity"
+            android:label="@string/title_activity_kalut" >
+        </activity>
+        <activity
+            android:name=".LampungActivity"
+            android:label="@string/title_activity_lampung" >
+        </activity>
+        <activity
+            android:name=".MalukuActivity"
+            android:label="@string/title_activity_maluku" >
+        </activity>
+        <activity
+            android:name=".MalukuutaraActivity"
+            android:label="@string/title_activity_malukuutara" >
+        </activity>
+        <activity
+            android:name=".NtbActivity"
+            android:label="@string/title_activity_ntb" >
+        </activity>
+        <activity
+            android:name=".NttActivity"
+            android:label="@string/title_activity_ntt" >
+        </activity>
+        <activity
+            android:name=".PabarActivity"
+            android:label="@string/title_activity_pabar" >
+        </activity>
+        <activity
+            android:name=".SulbarActivity"
+            android:label="@string/title_activity_sulbar" >
+        </activity>
+        <activity
+            android:name=".SulselActivity"
+            android:label="@string/title_activity_sulsel" >
+        </activity>
+        <activity
+            android:name=".SultengActivity"
+            android:label="@string/title_activity_sulteng" >
+        </activity>
+        <activity
+            android:name=".SultenggaraActivity"
+            android:label="@string/title_activity_sultenggara" >
+        </activity>
+        <activity
+            android:name=".SumselActivity"
+            android:label="@string/title_activity_sumsel" >
+        </activity>
+        <activity
+            android:name=".SumutActivity"
+            android:label="@string/title_activity_sumut" >
+        </activity>
+    </application>
+
+</manifest>
